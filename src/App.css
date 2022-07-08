@@ -1,0 +1,101 @@
+body{
+  background-color:blue;
+}
+
+body,
+html {
+  font-family: "Alata";
+  background-color: #dbeafe;
+  color: #3A3134;
+}
+
+
+.container {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ticket {
+  margin: auto;
+  padding: 0.5em;
+  border-radius: 10px;
+  background-color: #f7d71c;
+  box-shadow: 0px 8px 60px -10px #ffda79;
+}
+
+.basic {
+  height: 250px;
+  width: 220px;
+  border-style: hidden dashed hidden hidden;
+}
+
+.text {
+  float: right;
+  position: relative;
+  left: 0;
+}
+
+.fa-barcode {
+  transform: rotate(-90deg) scale(1000%, 500%);
+  font-size: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.seat, .flight {
+  float: left;
+}
+
+.flight {
+  float: right;
+}
+
+.airline {
+  height: 250px;
+  width: 450px;
+  background-color: white;
+  font-size: 13px;
+}
+
+.item1 {
+  padding-top: 7%;
+  padding-left: 10%;
+  //padding-right: 10%;
+}
+
+.fa-plane {
+  position: absolute;
+  transform: scale(5, 5) rotate(45deg);
+  font-size: 100%;
+  top: 45%;
+  left: 65%;
+}
+
+.from {
+  float: left;
+}
+
+.to {
+  width:50%;
+  padding: 1px;
+  float: right;
+}
+
+.item2 {
+  padding-top: 35%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.gate {
+  padding-top: 5%;
+  float: left;
+}
+
+.time {
+  float: right;
+}
